@@ -59,36 +59,74 @@ function Index() {
                               ))}
                           </div>
                         </div>
-                        <div className="flex text-white  flex-col mt-3 sm:mt-0 justify-start sm:justify-around  ml-0 sm:ml-9 h-full">
+                        <div className="flex text-white  flex-col mt-3 sm:mt-0 justify-start sm:justify-center  ml-0 sm:ml-9 h-full">
                           <div className="introduction">
-                            <h1 className="text-[30px]">
-                              Hallo, Saya Sufardi Madoa
+                            <h1 className="text-[40px] sm:text-[50px]">
+                              Halo, Saya Sufardi Madoa
                             </h1>
-                            <h1 className="text-sm">
-                              Saya adalah seorang Mahasiswa informatika yang
-                              berfokus pada pengembangan website
+                            <h1 className="text-sm font-thin sm:w-[60vh] w-full sm:mr-[100px] mr-0">
+                              Saya adalah seorang mahasiswa Informatika yang
+                              antusias dengan pengembangan web, berdedikasi
+                              untuk menciptakan solusi web yang inovatif dan
+                              efisien.
                             </h1>
                           </div>
-                          <div className="sosial flex mt-4  p-1 w-[180px]  rounded-lg justify-around">
-                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-sm  rounded-full py-2 px-3  text-blue-500 hover:underline">
-                              <img 
-                              src="./linkedin.svg" 
-                              alt="" 
-                              width={25}
-                              className="color-white"/>
+
+                          <div className="sosial flex mt-4  w-[140px]  rounded-lg justify-between">
+                            <a
+                              href="https://www.linkedin.com/in/sufardi-madoa-116a56295/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-blue-500 hover:underline "
+                            >
+                              <img src="./linkedin.svg" alt="" width={25} />
                             </a>
-                            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-500 hover:underline ml-4">
-                            <img 
-                              src="./linkedin.svg" 
-                              alt="" 
-                              width={25}/>
+                            <a
+                              href="https://github.com/SufardiMadoa"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-blue-500 hover:underline "
+                            >
+                              <img src="./github.svg" alt="" width={25} />
                             </a>
-                            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-500 hover:underline ml-4">
-                            <img 
-                              src="./linkedin.svg" 
-                              alt="" 
-                              width={25}/>
+                            <a
+                              href="https://www.instagram.com/sfrdi__/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-blue-500 hover:underline "
+                            >
+                              <img src="./instagram.svg" alt="" width={25} />
                             </a>
+                          </div>
+                          <h1 className="text-center my-9 sm:text-left ">Skills</h1>
+                          <div className="flex  gap-3 flex-wrap justify-center my-3">
+                            <img
+                              src="./laravel-seeklogo.svg"
+                              width={50}
+                              alt=""
+                            />
+                            <img src="./vite-seeklogo.svg" width={50} alt="" />
+                            <img src="./react-seeklogo.svg" width={50} alt="" />
+                            <img
+                              src="./python-seeklogo.svg"
+                              width={50}
+                              alt=""
+                            />
+                            <img
+                              src="./next-js-seeklogo.svg"
+                              className="bg-white px-1"
+                              width={50}
+                              height={30}
+                              alt=""
+                            />
+                            <img
+                              src="./mongodb-seeklogo.svg"
+                              width={50}
+                              alt=""
+                            />
+                            <img src="./git-seeklogo.svg" width={50} alt="" />
+                            <img src="./java-seeklogo.svg" width={50} alt="" />
+                            <img src="./express-js-seeklogo.svg" width={50} alt="" className="b-black text-white" />
                           </div>
                         </div>
                       </CardContent>
