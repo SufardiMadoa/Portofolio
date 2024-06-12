@@ -6,7 +6,28 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardDescription } from "@/components/ui/card";
+
+import { motion } from 'framer-motion';
+
+
+
+const ProjectCard = ({ title, description, imageUrl, isImageLeft }) => (
+  <motion.div 
+    className={`flex justify-start items-start flex-col md:flex-row ${isImageLeft ? 'md:flex-row' : 'md:flex-row-reverse'} bg-black text-white rounded-lg overflow-hidden mb-2 shadow-lg w-full h-[150px] md:w-1/2`}
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+    whileHover={{ scale: 1.05 }}
+  >
+    <img src={imageUrl} alt={title} className="w-full md:w-1/2 h-64 md:h-auto object-cover" />
+    <div className="p-8 flex flex-col justify-center w-full md:w-1/2">
+      <h2 className="text-4xl font-bold mb-4">{title}</h2>
+      <p className="mb-4">{description}</p>
+      <a href="#" className="text-sm text-gray-400 hover:text-gray-200">Learn more →</a>
+    </div>
+  </motion.div>
+);
 
 function Index() {
   return (
@@ -97,6 +118,14 @@ function Index() {
                             >
                               <img src="./instagram.svg" alt="" width={25} />
                             </a>
+                            <a
+                              href="https://read.cv/sufardimadoa"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-blue-500 hover:underline "
+                            >
+                              <img src="./cv.svg" alt="" width={25} />
+                            </a>
                           </div>
                           <h1 className="text-center my-9 sm:text-left ">Skills</h1>
                           <div className="flex  gap-3 flex-wrap justify-center my-3">
@@ -107,6 +136,7 @@ function Index() {
                             />
                             <img src="./vite-seeklogo.svg" width={50} alt="" />
                             <img src="./react-seeklogo.svg" width={50} alt="" />
+                            <img src="./tailwind-css-seeklogo.svg" width={50} alt="" />
                             <img
                               src="./python-seeklogo.svg"
                               width={50}
@@ -120,6 +150,13 @@ function Index() {
                               alt=""
                             />
                             <img
+                              src="./jupyter-seeklogo.svg"
+                              className="bg-white px-1"
+                              width={50}
+                              height={30}
+                              alt=""
+                            />
+                            <img
                               src="./mongodb-seeklogo.svg"
                               width={50}
                               alt=""
@@ -127,17 +164,34 @@ function Index() {
                             <img src="./git-seeklogo.svg" width={50} alt="" />
                             <img src="./java-seeklogo.svg" width={50} alt="" />
                             <img src="./express-js-seeklogo.svg" width={50} alt="" className="b-black text-white" />
+                            <img src="./power-bi-microsoft-seeklogo.svg" width={50} alt="" className="b-black text-white" />
                           </div>
                         </div>
                       </CardContent>
                     </Card>
                   ) : (
                     <Card className="border border-none">
-                      <CardContent className="flex items-center justify-center h-screen w-screen bg-black">
-                        <div className="text-white">
-                          {/* Placeholder for other carousel items */}
-                          Other Carousel Item {index + 1}
-                        </div>
+                      <CardContent className="flex items-start justify-start h-screen w-screen bg-black">
+                      <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4 space-y-8">
+    <ProjectCard 
+      title="ABC"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      imageUrl="https://via.placeholder.com/400x300" // Ganti dengan URL gambar proyek Anda
+      isImageLeft={true}
+    />
+    <ProjectCard 
+      title="ABC"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      imageUrl="https://via.placeholder.com/400x300" // Ganti dengan URL gambar proyek Anda
+      isImageLeft={false}
+    />
+    <ProjectCard 
+      title="ABC"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      imageUrl="https://via.placeholder.com/400x300" // Ganti dengan URL gambar proyek Anda
+      isImageLeft={true}
+    />
+  </div>
                       </CardContent>
                     </Card>
                   )}
