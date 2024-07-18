@@ -41,7 +41,7 @@ function Index() {
                   {index === 0 ? (
                     <Card className="border border-none">
                       <CardContent className="flex flex-col items-center justify-start h-screen w-screen bg-black sm:flex-row">
-                        <div className="relative w-40 h-[200px] mt-3 sm:w-80 sm:h-80 rounded-full bg-black flex items-center justify-center">
+                        <div className="relative animate-fade-up animate-once animate-duration-[3000ms] animate-ease-in-out animate-normal animate-fill-both w-40 h-[200px] mt-3 sm:w-80 sm:h-80 rounded-full bg-black flex items-center justify-center">
                           <div className="absolute w-40 h-40 rounded-full bg-purple-800 flex items-center justify-center">
                             <img
                               src="/profile.png" // Ensure this path points to the correct image location
