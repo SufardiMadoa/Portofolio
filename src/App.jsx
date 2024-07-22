@@ -1,17 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './index.css'
-import { Button } from './components/ui/button'
-import Index from './pages'
-function App() {
-  const [count, setCount] = useState(0)
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
+import Services from "./components/Services";
 
+const App = () => {
   return (
     <>
-      <Index/>
-    </>
-  )
-}
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Header />
+        <Hero />
+        <Collaboration />
+        {/* <Benefits />    
+        <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer /> */}
+      </div>
 
-export default App
+      <ButtonGradient />
+    </>
+  );
+};
+
+export default App;
