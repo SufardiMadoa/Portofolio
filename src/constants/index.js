@@ -33,7 +33,12 @@ import {
   sliders04,
   telegram,
   twitter,
+  github,
+  cv,
+  IG,
+  linkedin,
   yourlogo,
+  
 } from "../assets";
 
 export const navigation = [
@@ -62,15 +67,26 @@ export const navigation = [
 
 export const heroIcons = [
   {
-    imageUrl:homeSmile,
+    imageUrl:github,
     title: "github",
     url: "https://github.com/SufardiMadoa",
   },
   {
-    imageUrl:file02,
-    title: "github",
-    url: "https://github.com/SufardiMadoa",
-  }, searchMd, plusSquare];
+    imageUrl:cv,
+    title: "Portofolio",
+    url: "https://read.cv/sufardimadoa",
+  },
+  {
+    imageUrl:linkedin,
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/sufardi-madoa-116a56295/",
+  },
+  {
+    imageUrl:IG,
+    title: "Instagram",
+    url: "https://www.instagram.com/sfrdi__/",
+  }
+];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -127,21 +143,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "I am a web developer, with the following skills.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Responsive Design",
+    
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Front-End Development",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Back-End Development",
   },
 ];
 
