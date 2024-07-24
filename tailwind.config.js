@@ -74,6 +74,7 @@ export default {
     },
   },
   plugins: [
+    require('tailwindcss-animated'),
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({
