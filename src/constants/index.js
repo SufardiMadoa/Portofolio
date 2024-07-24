@@ -38,6 +38,9 @@ import {
   IG,
   linkedin,
   yourlogo,
+  Nodejs,
+  React,
+  Tailwind,
   
 } from "../assets";
 
@@ -165,21 +168,21 @@ export const collabApps = [
   {
     id: "0",
     title: "Figma",
-    icon: figma,
+    icon: Nodejs,
     width: 26,
     height: 36,
   },
   {
     id: "1",
     title: "Notion",
-    icon: notion,
+    icon: React,
     width: 34,
     height: 36,
   },
   {
     id: "2",
     title: "Discord",
-    icon: discord,
+    icon: Tailwind,
     width: 36,
     height: 28,
   },

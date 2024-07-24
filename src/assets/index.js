@@ -38,6 +38,13 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
+import Boostrap from "./collaboration/Bootstrap.png";
+import Laravel from "./collaboration/Laravel.png";
+import Nodejs from "./collaboration/Nodejs.png";
+import React from "./collaboration/React.png";
+import Tailwind from "./collaboration/Tailwind.png";
+import Vite from "./collaboration/Vite.png";
+
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
@@ -119,6 +126,16 @@ export {
   protopie,
   raindrop,
   slack,
+
+  Laravel,
+  Nodejs,
+  Boostrap,
+  React,
+  Tailwind,
+  Vite,
+
+
+
   service1,
   service2,
   service3,
