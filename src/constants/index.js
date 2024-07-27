@@ -41,6 +41,13 @@ import {
   Nodejs,
   React,
   Tailwind,
+  Vite,
+  Express,
+  CodeIgniter,
+  Laravel,
+  Postman,
+  menapak,
+  jemparingan,
   
 } from "../assets";
 
@@ -182,42 +189,42 @@ export const collabApps = [
   {
     id: "2",
     title: "Discord",
-    icon: Tailwind,
+    icon: Vite,
     width: 36,
     height: 28,
   },
   {
     id: "3",
     title: "Slack",
-    icon: slack,
+    icon: Tailwind,
     width: 34,
     height: 35,
   },
   {
     id: "4",
     title: "Photoshop",
-    icon: photoshop,
+    icon: Express,
     width: 34,
     height: 34,
   },
   {
     id: "5",
     title: "Protopie",
-    icon: protopie,
+    icon: CodeIgniter,
     width: 34,
     height: 34,
   },
   {
     id: "6",
     title: "Framer",
-    icon: framer,
+    icon: Laravel,
     width: 26,
     height: 34,
   },
   {
     id: "7",
     title: "Raindrop",
-    icon: raindrop,
+    icon: Postman,
     width: 38,
     height: 32,
   },
@@ -312,6 +319,21 @@ export const benefits = [
   },
 ];
 
+export const project=[
+  {
+    title: "Menapak Indonesia",
+    text: "menapak Indonesia adalah website yang menampilkan berita ",
+    imageUrl: menapak,
+    url: "https://menapak.id/",
+  },
+  {
+    title: "Jemparingan SCORE",
+    text: "Merupakan situs penilaian sayembara jemparingan mataraman ",
+    imageUrl: jemparingan,
+    url: "https://menapak.id/",
+  },
+]
+
 export const socials = [
   {
     id: "0",
@@ -343,4 +365,5 @@ export const socials = [
     iconUrl: facebook,
     url: "#",
   },
+
 ];
