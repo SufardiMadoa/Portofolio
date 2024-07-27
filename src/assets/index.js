@@ -44,6 +44,12 @@ import Nodejs from "./collaboration/Nodejs.png";
 import React from "./collaboration/React.png";
 import Tailwind from "./collaboration/Tailwind.png";
 import Vite from "./collaboration/Vite.png";
+import Next from "./collaboration/Next.png";
+import Express from "./collaboration/Express.png";
+import CodeIgniter from "./collaboration/CodeIgniter.png";
+import Postman from "./collaboration/Postman.png";
+import Java from "./collaboration/Java.png";
+
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -88,6 +94,8 @@ import cv from "./socials/cv.svg";
 import IG from "./socials/IG.svg";
 import linkedin from "./socials/linkedin.svg";
 
+import menapak  from "./projects/menapak.jpg";
+import jemparingan from "./projects/jemparingan.png";
 export {
   brainwave,
   check,
@@ -133,7 +141,11 @@ export {
   React,
   Tailwind,
   Vite,
-
+  Next,
+  Express,
+  CodeIgniter,
+  Postman,
+  Java,
 
 
   service1,
@@ -173,4 +185,8 @@ export {
   cv,
   IG,
   linkedin,
+
+  menapak,
+  jemparingan,
+  
 };
