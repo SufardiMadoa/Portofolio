@@ -63,7 +63,7 @@ const Hero = () => {
                     {heroIcons.map((icon, index) => (
                       <a href={icon.url}>
                       <li className="p-5" key={index}>
-                        <img src={icon.imageUrl} width={24} height={25} alt={icon} />
+                        <img src={icon.imageUrl} width={30} height={30} alt={icon} />
                       </li>
                       </a>
                     ))}

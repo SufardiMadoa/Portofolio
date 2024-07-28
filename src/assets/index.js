@@ -94,8 +94,10 @@ import cv from "./socials/cv.svg";
 import IG from "./socials/IG.svg";
 import linkedin from "./socials/linkedin.svg";
 
-import menapak  from "./projects/menapak.jpg";
+import menapak  from "./projects/menapak.png";
 import jemparingan from "./projects/jemparingan.png";
+import blue from "./projects/Blue.png";
+import UKM from "./projects/UKM.png";
 export {
   brainwave,
   check,
@@ -188,5 +190,7 @@ export {
 
   menapak,
   jemparingan,
+  blue,
+  UKM,
   
 };
