@@ -48,6 +48,8 @@ import {
   Postman,
   menapak,
   jemparingan,
+  blue,
+  UKM,
   
 } from "../assets";
 
@@ -322,15 +324,39 @@ export const benefits = [
 export const project=[
   {
     title: "Menapak Indonesia",
-    text: "menapak Indonesia adalah website yang menampilkan berita ",
+    text: "Menapak Indonesia is a web-based information system used to display news, articles, work programs, work areas, book lending, and activity documentation",
     imageUrl: menapak,
-    url: "https://menapak.id/",
+    made:[Laravel],
+    view:"View App",
+    date: "May 2024",
+    url: "https://menapak.org/",
   },
   {
-    title: "Jemparingan SCORE",
-    text: "Merupakan situs penilaian sayembara jemparingan mataraman ",
+    title: "Jemparingan Score",
+    made:[React, Vite, Tailwind],
+    text: "Jemparingan Score is a web-based scoring system for Jemparingan or archery, following the national Mataraman Jemparingan rules",
     imageUrl: jemparingan,
-    url: "https://menapak.id/",
+    view:"View App",
+    date: "Juni 2024",
+    url: "https://jemparinganpakualaman.id/",
+  },
+  {
+    title: "UKM IK",
+    made:[React, Vite, Tailwind],
+    text: "IK Management Organization is a web-based system that helps organizations manage new members, work programs, and finances.",
+    imageUrl: UKM,
+    view:"Github",
+    date: "Juni 2024",
+    url: "https://github.com/UKM-IK",
+  },
+  {
+    title: "Blue Action",
+    made:[React, Vite, Tailwind, Express],
+    text: "Blue Action is a web-based information system that features news, education, and ways to address waste problems in general",
+    imageUrl: blue,
+    view:"Github",
+    date: "December 2023",
+    url: "https://github.com/SufardiMadoa/BlueAction_FE",
   },
 ]
 

@@ -2,6 +2,7 @@ import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
+import { smallSphere, stars } from "../assets";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
@@ -9,7 +10,25 @@ import { Gradient } from "./design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+    <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
+          <img
+            src={smallSphere}
+            className="relative z-1"
+            width={255}
+            height={255}
+            alt="Sphere"
+          />
+          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            <img
+              src={stars}
+              className="w-full"
+              width={950}
+              height={400}
+              alt="Stars"
+            />
+          </div>
+        </div>
+      <Heading tag="Get Started With Me" title="What we’re working on" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
