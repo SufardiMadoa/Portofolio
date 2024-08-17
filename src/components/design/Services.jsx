@@ -17,7 +17,7 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute hidden xl:flex top-8 left-20 xl:top-36 xl:left-80 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-br-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
+    <div className="absolute hidden xl:flex top-8 left-20 xl:top-10 xl:left-96 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-br-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
      Hi, it's great to get brilliant ideas from you
       <ChatBubbleWing className="absolute right-full bottom-0 object-cover transform scale-x-[-1]" />
     </div>
