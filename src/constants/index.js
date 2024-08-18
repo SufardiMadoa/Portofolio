@@ -50,6 +50,8 @@ import {
   jemparingan,
   blue,
   UKM,
+  alibaba,
+  SK_Algo,
   
 } from "../assets";
 
@@ -125,7 +127,7 @@ export const roadmap = [
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: alibaba,
     colorful: true,
   },
   {
@@ -134,7 +136,8 @@ export const roadmap = [
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: SK_Algo,
+    colorful: true,
   },
   {
     id: "2",
@@ -143,6 +146,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
@@ -151,6 +155,7 @@ export const roadmap = [
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true,
   },
 ];
 

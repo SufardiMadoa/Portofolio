@@ -98,6 +98,18 @@ import menapak  from "./projects/menapak.png";
 import jemparingan from "./projects/jemparingan.png";
 import blue from "./projects/Blue.png";
 import UKM from "./projects/UKM.png";
+
+import alibaba from "./certificate/alibaba.png";
+import codepolitan1 from "./certificate/codepolitan1.png";
+import codepolitan2 from "./certificate/codepolitan2.png";;
+import codepolitan3 from "./certificate/codepolitan3.png";;
+import codepolitan4 from "./certificate/codepolitan4.png";;
+import codepolitan5 from "./certificate/codepolitan5.png";;
+import codepolitan6 from "./certificate/codepolitan6.png";;
+import codepolitan7 from "./certificate/codepolitan7.png";;
+import dicoding from "./certificate/dicoding.png";
+import SK_Algo from "./certificate/sk_Algo.jpg";
+import SK_Pwc from "./certificate/sk_pwc.jpg";
 export {
   brainwave,
   check,
@@ -192,5 +204,18 @@ export {
   jemparingan,
   blue,
   UKM,
+  
+  alibaba,
+  codepolitan1,
+  codepolitan2,
+  codepolitan3,
+  codepolitan4,
+  codepolitan5,
+  codepolitan6,
+  codepolitan7,
+  dicoding,
+  SK_Algo,
+  SK_Pwc,
+
   
 };
