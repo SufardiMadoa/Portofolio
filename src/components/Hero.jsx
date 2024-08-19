@@ -14,15 +14,9 @@ const Hero = () => {
 
   return (
 <>
-    {/* // <Section
-    //   className="pt-[12rem] -mt-[3.25rem]  h-[500px]"
-    //   crosses
-    //   crossesOffset="lg:translate-y-[5.25rem]"
-    //   customPaddings
-    //   id="Home"
-    // > */}
-   
-      <div className="container relative my-40" ref={parallaxRef}>
+  
+   <div className="div" id="Home">
+      <div className="container relative my-40"  ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-8">
 
@@ -91,9 +85,8 @@ const Hero = () => {
 
         
       </div>
-
+      </div>
       {/* <BottomLine /> */}
-    {/* </Section> */}
     </>
   );
 };

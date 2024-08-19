@@ -73,19 +73,24 @@ export const navigation = [
   {
     id: "1",
     title: "About",
-    url: "#pricing",
+    url: "#About",
   },
   {
     id: "2",
     title: "Portofolio",
-    url: "#how-to-use",
+    url: "#Portofolio",
   },
+  
   {
     id: "3",
     title: "Certificate",
-    url: "#roadmap",
+    url: "#Certificate",
   },
-
+  {
+    id: "4",
+    title: "Contact",
+    url: "#Contact",
+  },
 ];
 
 export const heroIcons = [

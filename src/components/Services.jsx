@@ -17,7 +17,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="Portofolio">
       <div className="container flex justify-center flex-col">
         <Heading title="MY PROJECT IN THE LAST YEARS" text="" />
 

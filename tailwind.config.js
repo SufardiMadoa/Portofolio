@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
-
+const flowbite = require("flowbite-react/tailwind");
 export default {
   darkMode: 'class',
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", 'node_modules/flowbite-react/lib/esm/**/*.js', flowbite.content()],
   theme: {
     extend: {
       colors: {
@@ -75,6 +75,8 @@ export default {
     },
   },
   plugins: [
+    require('flowbite/plugin'),
+    flowbite.plugin(),
     require('tailwindcss-animated'),
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
