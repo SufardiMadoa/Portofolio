@@ -110,6 +110,7 @@ import codepolitan7 from "./certificate/codepolitan7.png";;
 import dicoding from "./certificate/dicoding.png";
 import SK_Algo from "./certificate/sk_Algo.jpg";
 import SK_Pwc from "./certificate/sk_pwc.jpg";
+import MSIB from "./certificate/MSIB.png";  
 export {
   brainwave,
   check,
@@ -216,6 +217,6 @@ export {
   dicoding,
   SK_Algo,
   SK_Pwc,
-
+MSIB,
   
 };
