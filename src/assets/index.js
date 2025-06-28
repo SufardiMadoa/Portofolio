@@ -47,6 +47,7 @@ import Vite from "./collaboration/Vite.png";
 import Next from "./collaboration/Next.png";
 import Express from "./collaboration/Express.png";
 import CodeIgniter from "./collaboration/CodeIgniter.png";
+import Vue from "./collaboration/Vue.png";
 import Postman from "./collaboration/Postman.png";
 import Java from "./collaboration/Java.png";
 
@@ -98,6 +99,8 @@ import menapak  from "./projects/menapak.png";
 import jemparingan from "./projects/jemparingan.png";
 import blue from "./projects/Blue.png";
 import UKM from "./projects/UKM.png";
+import simpeg from "./projects/simpeg.png";
+import Listriqu from "./projects/Listriqu.png";
 
 import alibaba from "./certificate/alibaba.png";
 import codepolitan1 from "./certificate/codepolitan1.png";
@@ -159,6 +162,7 @@ export {
   Next,
   Express,
   CodeIgniter,
+  Vue,
   Postman,
   Java,
 
@@ -205,6 +209,8 @@ export {
   jemparingan,
   blue,
   UKM,
+  simpeg,
+  Listriqu,
   
   alibaba,
   codepolitan1,

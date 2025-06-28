@@ -44,12 +44,15 @@ import {
   Vite,
   Express,
   CodeIgniter,
+  Vue,
   Laravel,
   Postman,
   menapak,
   jemparingan,
   blue,
   UKM,
+simpeg,
+
   alibaba,
   SK_Algo,
   dicoding,
@@ -62,7 +65,8 @@ import {
   codepolitan6,
   codepolitan7,
   MSIB,
-  
+  Java,
+  Listriqu,
 } from "../assets";
 
 export const navigation = [
@@ -318,7 +322,7 @@ export const collabApps = [
   {
     id: "7",
     title: "Raindrop",
-    icon: Postman,
+    icon: Java,
     width: 38,
     height: 32,
   },
@@ -414,6 +418,24 @@ export const benefits = [
 ];
 
 export const project=[
+  {
+    title: "LISTRIQU",
+    text: "Listriqu is a web-based application for managing electrical units and sub-units, equipped with a role-based login system",
+    imageUrl: Listriqu,
+    made:[Java, Vue, Tailwind],
+    view:"Github",
+    date: "Jun 2025",
+    url: "https://github.com/users/SufardiMadoa/projects/6",
+  },
+  {
+    title: "SIMPEG",
+    text: "SIMPEG is a personnel management system used to manage employee data, including personal information, job history, education, training, and other administrative records.",
+    imageUrl: simpeg,
+    made:[React, Vite, Tailwind],
+    view:"private site",
+    date: "Dec 2024",
+    url: "#",
+  },
   {
     title: "Menapak Indonesia",
     text: "Menapak Indonesia is a web-based information system used to display news, articles, work programs, work areas, book lending, and activity documentation",
